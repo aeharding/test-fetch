@@ -7,19 +7,22 @@ settings:
 dependencies:
   '@capacitor/app':
     specifier: 5.0.6
-    version: 5.0.6(@capacitor/core@5.5.0)
+    version: 5.0.6(@capacitor/core@5.2.3)
   '@capacitor/core':
-    specifier: 5.5.0
-    version: 5.5.0
+    specifier: 5.2.3
+    version: 5.2.3
   '@capacitor/haptics':
     specifier: 5.0.6
-    version: 5.0.6(@capacitor/core@5.5.0)
+    version: 5.0.6(@capacitor/core@5.2.3)
+  '@capacitor/ios':
+    specifier: 5.2.3
+    version: 5.2.3(@capacitor/core@5.2.3)
   '@capacitor/keyboard':
     specifier: 5.0.6
-    version: 5.0.6(@capacitor/core@5.5.0)
+    version: 5.0.6(@capacitor/core@5.2.3)
   '@capacitor/status-bar':
     specifier: 5.0.6
-    version: 5.0.6(@capacitor/core@5.5.0)
+    version: 5.0.6(@capacitor/core@5.2.3)
   '@ionic/react':
     specifier: ^7.0.0
     version: 7.5.1(react-dom@18.2.0)(react@18.2.0)
@@ -50,8 +53,8 @@ dependencies:
 
 devDependencies:
   '@capacitor/cli':
-    specifier: 5.5.0
-    version: 5.5.0
+    specifier: 5.2.3
+    version: 5.2.3
   '@testing-library/jest-dom':
     specifier: ^5.16.5
     version: 5.17.0
@@ -1287,16 +1290,16 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@capacitor/app@5.0.6(@capacitor/core@5.5.0):
+  /@capacitor/app@5.0.6(@capacitor/core@5.2.3):
     resolution: {integrity: sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.5.0
+      '@capacitor/core': 5.2.3
     dev: false
 
-  /@capacitor/cli@5.5.0:
-    resolution: {integrity: sha512-JkF7p+EV1mEFObp3e/3snKZiiDPbHTAXlch9jKcvvuCjm92Be7ka8sG4M3fH8BPajSE3jRNPZa/xt7bITDvAAA==}
+  /@capacitor/cli@5.2.3:
+    resolution: {integrity: sha512-iqjOnA9fCxm+cFv5iTvxb/vElK2Z1kDpVS+N9XyD2Msyv3l3ezuOZTSvABiDoo6w6CGkj4/AUMpdT4nrZkTHTg==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -1321,34 +1324,42 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/core@5.5.0:
-    resolution: {integrity: sha512-w59io0ctwnb7JRng7yO2H0YLHG8uz7XARUugRfp5aYTNiG55FqdSmSMOOqGCMPRg4sEnKjJTvAa4ImCYh3Kk1w==}
+  /@capacitor/core@5.2.3:
+    resolution: {integrity: sha512-Q1zbgt3Mvldy7six2/GX54kTL0ozgnR37jeDUAXL/fOJBF4Iorr/8A0OjGEAnwEjpR1la7uFZUunESMFyMLhEQ==}
     dependencies:
       tslib: 2.6.2
     dev: false
 
-  /@capacitor/haptics@5.0.6(@capacitor/core@5.5.0):
+  /@capacitor/haptics@5.0.6(@capacitor/core@5.2.3):
     resolution: {integrity: sha512-UrMcR7p2X10ql4VLlowUuH/VckTeu0lj+RQpekxox14uxDmu5AGIFDK/iDTi8W6QZkxTJRZK6sbCjgwYgNJ7Pw==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.5.0
+      '@capacitor/core': 5.2.3
     dev: false
 
-  /@capacitor/keyboard@5.0.6(@capacitor/core@5.5.0):
+  /@capacitor/ios@5.2.3(@capacitor/core@5.2.3):
+    resolution: {integrity: sha512-ailR/Mer48GEXdqip+ENyN3Qk+ZtUBNDTlHh83WLNbx6uv71z6lCeoLKBXdtSEBFwzFrwtCO5upzbdzK79pONQ==}
+    peerDependencies:
+      '@capacitor/core': ^5.2.0
+    dependencies:
+      '@capacitor/core': 5.2.3
+    dev: false
+
+  /@capacitor/keyboard@5.0.6(@capacitor/core@5.2.3):
     resolution: {integrity: sha512-9GewAa/y2Hwkdw/Be8MTdiAjrFZ7TPDKpR44M0Y/0QMnK+mBbgzcoZ/UkuumWv6e2F1IAI+VY5eYVQHDeZcRoA==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.5.0
+      '@capacitor/core': 5.2.3
     dev: false
 
-  /@capacitor/status-bar@5.0.6(@capacitor/core@5.5.0):
+  /@capacitor/status-bar@5.0.6(@capacitor/core@5.2.3):
     resolution: {integrity: sha512-7od8CxsBnot1XMK3IeOkproFL4hgoKoWAc3pwUvmDOkQsXoxwQm4SR9mLwQavv1XfxtHbFV9Ukd7FwMxOPSViw==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.5.0
+      '@capacitor/core': 5.2.3
     dev: false
 
   /@colors/colors@1.5.0:
